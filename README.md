@@ -1,4 +1,6 @@
-# Anvil & Page — Digital Marketplace
+# Digify
+
+A digital marketplace for independent makers. **Live demo:** https://digify-dusky.vercel.app
 
 A digital goods marketplace built as coursework for the **E-commerce Technologies** course. Sells e-books, software, music, and templates from independent makers.
 
