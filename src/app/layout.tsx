@@ -4,6 +4,7 @@ import { getCurrentUser } from '@/lib/auth';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { NavigationProgress } from '@/components/NavigationProgress';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata: Metadata = {
   title: 'Digify — Digital Marketplace for Independent Makers',
@@ -37,6 +38,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         />
         <main>{children}</main>
         <Footer />
+        <GoogleAnalytics gaId="G-4S0QD92NXR" />
       </body>
     </html>
   );
