@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { NavigationProgress } from '@/components/NavigationProgress';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Digify — Digital Marketplace for Independent Makers',
@@ -47,6 +48,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
           })(window, document, "clarity", "script", "wp2pj68ewz");`}
         </Script>
+        <Analytics />
       </body>
     </html>
   );
