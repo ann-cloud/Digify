@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   themeColor: '#f7f8fa',
+  verification: {
+    google: '-NEwK-lGa2dUjhrcynQFhc2Lx1nleAGI5nz7D0kApm8',
+  },
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
