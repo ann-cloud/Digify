@@ -61,7 +61,7 @@ export default async function SellerDashboard() {
                 ? p.reviews.reduce((s, r) => s + r.rating, 0) / p.reviews.length
                 : null;
             return (
-              <div key={p.id} className="py-5 grid grid-cols-12 gap-4 items-center">
+              <div key={p.id} className="px-5 py-4 grid grid-cols-12 gap-4 items-center">
                 <div className="col-span-12 md:col-span-5 flex gap-4 items-center">
                   <div className="w-16 h-20 bg-surface-2 shrink-0">
                     {p.coverImage && (
