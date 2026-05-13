@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   themeColor: '#f7f8fa',
   verification: {
     google: '-NEwK-lGa2dUjhrcynQFhc2Lx1nleAGI5nz7D0kApm8',
+      other: {
+      'msvalidate.01': '3A594C7399ECEAB7337270F9677E2ADC',
+    },
   },
 };
 
